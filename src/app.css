@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+	:root {
+		--color-primary: #faebd7;
+		--color-secondary: #231f20;
+		--color-golden: #dcca87;
+		--color-bg-1: #231f20;
+		--color-bg-2: #7b9f85;
+	}
+}
