@@ -12,6 +12,7 @@
 	"devDependencies": {
 		"@iconify/json": "^2.1.141",
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.84",
 		"@sveltejs/kit": "next",
 		"@sveltejs/vite-plugin-svelte": "^1.2.0",
 		"autoprefixer": "^10.4.13",
