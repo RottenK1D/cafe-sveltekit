@@ -1,0 +1,60 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-e66f9416.css"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/cup-33500647.jpg",
+      "_app/immutable/assets/cappuccino-58e07601.jpg",
+      "_app/immutable/assets/black-forest-e6c85fe3.jpg",
+      "_app/immutable/assets/barista-a936f202.jpg",
+      "_app/immutable/assets/shop-0e11c054.jpg",
+      "_app/immutable/assets/shop1-d74316d4.jpg",
+      "_app/immutable/assets/shop2-15013d44.jpg",
+      "_app/immutable/assets/logo1-f46c81fe.png",
+      "_app/immutable/assets/logo2-a3e4a349.png",
+      "_app/immutable/assets/logo3-abfafda5.png"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
