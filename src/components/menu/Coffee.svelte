@@ -52,7 +52,7 @@
 				</button>
 			</div>
 			<a
-				href="dishes"
+				href="#desserts"
 				class="w-[140px] bg-skin-primary text-skin-primary text-center p-2 rounded italic hover:bg-skin-golden hover:text-skin-secondary mt-4"
 				>More menu</a
 			>

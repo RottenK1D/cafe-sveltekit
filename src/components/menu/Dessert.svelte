@@ -12,7 +12,7 @@
 	}
 </script>
 
-<section class="font-display bg-skin-primary text-skin-primary mt-20">
+<section id='desserts' class="font-display bg-skin-primary text-skin-primary mt-20">
 	<div class="flex flex-col md:flex-row gap-10 {style.boxWidth} {style.paddingX} {style.paddingY}">
 		<div class="flex flex-1 flex-col">
 			<p class="text-lg text-skin-golden italic">OUR DESSERTS</p>
