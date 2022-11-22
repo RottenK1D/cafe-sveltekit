@@ -3,6 +3,10 @@
 	import style from '../lib/styles';
 </script>
 
+<svelte:head>
+	<title>Cafè House</title>
+</svelte:head>
+
 <div class="bg-skin-primary">
 	<div class="{style.boxWidth} {style.paddingX}">
 		<Navbar />

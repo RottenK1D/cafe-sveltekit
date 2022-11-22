@@ -38,7 +38,7 @@
 				<p>Favorite Coffee</p>
 			</div>
 			<p class="text-lg">More than 100+ type of coffee are ready to serve by our professionals.</p>
-			<div class="flex md:text-3xl text-xl mt-6">
+			<div class="flex md:text-3xl items-center text-xl mt-6">
 				<button on:click={() => setDrink(cappuccino)} class="hover:text-skin-golden cursor-pointer">
 					Cappuccino
 				</button>

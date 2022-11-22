@@ -21,7 +21,7 @@
 				<p>with Our Desserts</p>
 			</div>
 			<p class="text-lg">Enjoy your coffee with our tasty desserts that will build your mood.</p>
-			<div class="flex md:text-3xl text-xl mt-6">
+			<div class="flex md:text-3xl text-xl items-center mt-6">
 				<button on:click={() => setDish(blackForest)} class="hover:text-skin-golden cursor-pointer">
 					Black Forest
 				</button>
