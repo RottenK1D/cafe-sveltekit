@@ -22,15 +22,17 @@
 			</div>
 			<p class="text-lg">Enjoy your coffee with our tasty desserts that will build your mood.</p>
 			<div class="flex md:text-3xl text-xl mt-6">
-				<p on:click={() => setDish(blackForest)} class="hover:text-skin-golden cursor-pointer">
+				<button on:click={() => setDish(blackForest)} class="hover:text-skin-golden cursor-pointer">
 					Black Forest
-				</p>
+				</button>
 				<CiDot03M />
-				<p on:click={() => setDish(creme)} class="hover:text-skin-golden cursor-pointer">Crème</p>
+				<button on:click={() => setDish(creme)} class="hover:text-skin-golden cursor-pointer"
+					>Crème</button
+				>
 				<CiDot03M />
-				<p on:click={() => setDish(tiramisu)} class="hover:text-skin-golden cursor-pointer">
+				<button on:click={() => setDish(tiramisu)} class="hover:text-skin-golden cursor-pointer">
 					Tiramisu
-				</p>
+				</button>
 			</div>
 			<a
 				href="#menu"

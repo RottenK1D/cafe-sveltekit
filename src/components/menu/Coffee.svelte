@@ -39,15 +39,17 @@
 			</div>
 			<p class="text-lg">More than 100+ type of coffee are ready to serve by our professionals.</p>
 			<div class="flex md:text-3xl text-xl mt-6">
-				<p on:click={() => setDrink(cappuccino)} class="hover:text-skin-golden cursor-pointer">
+				<button on:click={() => setDrink(cappuccino)} class="hover:text-skin-golden cursor-pointer">
 					Cappuccino
-				</p>
+				</button>
 				<CiDot03M />
-				<p on:click={() => setDrink(latte)} class="hover:text-skin-golden cursor-pointer">Latte</p>
+				<button on:click={() => setDrink(latte)} class="hover:text-skin-golden cursor-pointer"
+					>Latte</button
+				>
 				<CiDot03M />
-				<p on:click={() => setDrink(arabica)} class="hover:text-skin-golden cursor-pointer">
+				<button on:click={() => setDrink(arabica)} class="hover:text-skin-golden cursor-pointer">
 					Arabica
-				</p>
+				</button>
 			</div>
 			<a
 				href="dishes"
